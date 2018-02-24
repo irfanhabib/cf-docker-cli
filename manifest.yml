@@ -1,0 +1,9 @@
+---
+applications:
+- name: cf-docker-cli
+  instances: 1
+  memory: 128M
+  disk_quota: 128M
+  host: cf-docker-cli
+  docker:
+    image: atplus123/cc-cfcli
