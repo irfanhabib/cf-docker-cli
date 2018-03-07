@@ -7,4 +7,4 @@ applications:
   no-hostname: true
   no-route: true
   health-check-type: process
-  docker_image: atplus123/cc-cfcli
+  docker_image: dockerio/atplus123/cc-cfcli
